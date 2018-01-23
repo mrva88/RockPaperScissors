@@ -1,0 +1,10 @@
+C:\Users\User\Documents\Visual Studio 2015\Projects\PapirKamenMakaze\PapirKamenMakaze\obj\Debug\RockPaperScissors.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\Visual Studio 2015\Projects\PapirKamenMakaze\PapirKamenMakaze\obj\Debug\PapirKamenMakaze.exe
+C:\Users\User\Documents\Visual Studio 2015\Projects\PapirKamenMakaze\PapirKamenMakaze\obj\Debug\PapirKamenMakaze.pdb
+C:\Users\User\Documents\Visual Studio 2015\Projects\PapirKamenMakaze\PapirKamenMakaze\bin\Debug\PapirKamenMakaze.exe.config
+C:\Users\User\Documents\Visual Studio 2015\Projects\PapirKamenMakaze\PapirKamenMakaze\bin\Debug\PapirKamenMakaze.exe
+C:\Users\User\Documents\Visual Studio 2015\Projects\PapirKamenMakaze\PapirKamenMakaze\bin\Debug\PapirKamenMakaze.pdb
+C:\Users\User\Documents\Visual Studio 2015\Projects\PapirKamenMakaze\PapirKamenMakaze\bin\Debug\MySql.Data.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\RockPaperScissors\PapirKamenMakaze\bin\Debug\PapirKamenMakaze.exe.config
+C:\Users\User\Documents\Visual Studio 2015\Projects\RockPaperScissors\PapirKamenMakaze\obj\Debug\PapirKamenMakaze.exe
+C:\Users\User\Documents\Visual Studio 2015\Projects\RockPaperScissors\PapirKamenMakaze\obj\Debug\PapirKamenMakaze.pdb
