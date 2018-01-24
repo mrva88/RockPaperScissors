@@ -11,9 +11,9 @@ namespace PapirKamenMakaze
         public static string GetSelection()
         {
             string[] niz = new string[3];
-            niz[0] = "papir";
-            niz[1] = "kamen";
-            niz[2] = "makaze";
+            niz[0] = "paper";
+            niz[1] = "rock";
+            niz[2] = "scissors";
             Random rnd = new Random();
             int r = rnd.Next(niz.Length);
             return niz[r];

@@ -14,29 +14,34 @@ namespace PapirKamenMakaze
         static void Main(string[] args)
         {
             //Data input and welcome information
-            Console.WriteLine("Dobrodosli!!!");
-            Console.Write("Unesite vase ime: ");
+            Console.WriteLine("Welcome!!!");
+            Console.Write("Enter Your name please: ");
 
             var name = Console.ReadLine();
-            string izbor;
+            string izbor = "11";
+            string quit = "quit";
             Console.WriteLine(DBkomunikacija.Welcome(name));
             Console.WriteLine();
 
+            while (!(izbor.Equals(quit)))
+            {
 
+            
 
-                //Loops until valid choice is entered
-                do { izbor = Selections.GetPlayerChoice(); }
-                while (!(izbor == Selections.Outcomes.papir.ToString() || izbor == Selections.Outcomes.kamen.ToString() || izbor == Selections.Outcomes.makaze.ToString()));
-                //Coverts Humans and CPU's choice to Enum
-                Selections.Outcomes Human;
-                Enum.TryParse(izbor, out Human);
-                Selections.Outcomes CPU;
-                Enum.TryParse(ComputerPKM.GetSelection(), out CPU);
-                //Decites winner
-                Selections.DecideWinner(name, Human, CPU);
-
-          }
-
+            //Loops until valid choice is entered
+            do { izbor = Selections.GetPlayerChoice(); }
+            while (!(izbor == Selections.Outcomes.paper.ToString() || izbor == Selections.Outcomes.rock.ToString() || izbor == Selections.Outcomes.scissors.ToString()));
+            //Coverts Humans and CPU's choice to Enum
+            Selections.Outcomes Human;
+            Enum.TryParse(izbor, out Human);
+            Selections.Outcomes CPU;
+            Enum.TryParse(ComputerPKM.GetSelection(), out CPU);
+            //Decites winner
+            Selections.DecideWinner(name, Human, CPU);
+            }
+         }
     }
+
 }
+
 

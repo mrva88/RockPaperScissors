@@ -54,11 +54,11 @@ namespace PapirKamenMakaze
 
             if (Reader.Read())
             {
-                return "Vas broj pobeda je: " + Reader.GetString("Rezultat");
+                return "Your number of victories: " + Reader.GetString("Rezultat");
             }
             else
             {
-                return "Srecno sa prvom igrom!";
+                return "Its Your fist time, good luck!";
             }
         }
 
